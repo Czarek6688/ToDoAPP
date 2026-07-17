@@ -1,0 +1,11 @@
+body {
+  text-align: center;
+  list-style-position: inside;
+  margin: 0;
+}
+
+form {
+  background-color: grey;
+  color: aliceblue;
+  padding: 80px;
+}
