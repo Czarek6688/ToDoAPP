@@ -11,6 +11,7 @@ przycisk1.addEventListener("click", function (event) {
 
   const newItem = document.createElement("li");
   newItem.textContent = text1.value;
+  newItem.classList.add("new-li");
   shoppingList.appendChild(newItem);
 
   const newCheckBoxElement = document.createElement("input");
@@ -23,6 +24,7 @@ przycisk1.addEventListener("click", function (event) {
 
   const deleteItem = document.createElement("button");
   deleteItem.textContent = "Usuń";
+  deleteItem.classList.add("delete-btn");
   newItem.appendChild(deleteItem);
 
   deleteItem.addEventListener("click", function () {
