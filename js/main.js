@@ -1,11 +1,11 @@
 let toDoApp = document.getElementById("to-do-app");
 let text1 = document.getElementById("text");
 let shoppingList = document.getElementById("shopping-list");
-let przycisk1 = document.getElementById("add");
-let przycisk3 = document.getElementById("switch");
+let addButton = document.getElementById("add");
+let darkModeButton = document.getElementById("switch");
 let body = document.querySelector("body");
 
-przycisk1.addEventListener("click", function (event) {
+addButton.addEventListener("click", function (event) {
   event.preventDefault();
   console.log(text1.value);
 
@@ -37,6 +37,6 @@ przycisk1.addEventListener("click", function (event) {
   }
 });
 
-przycisk3.addEventListener("click", function () {
+darkModeButton.addEventListener("click", function () {
   body.classList.toggle("black");
 });
